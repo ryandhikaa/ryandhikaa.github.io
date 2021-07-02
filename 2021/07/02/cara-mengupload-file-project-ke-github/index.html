@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>Cara Mengupload File Project Ke Git · Ryandhika Bintang</title><meta name="description" content="Hallo, selamat pagi, siang sore atau malam pada saat anda menonton artikel ini. Sesuai dengan judul pada kesempatan kali ini kita akan melakukan uploa"><meta name="keywords"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 5.2.0"></head><body><div class="sidebar animated fadeInDown"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h2 title=""><a href="/">-----</a></h2><h3 title=""><a href="/">Ryandhika Bintang</a></h3></div></div><ul class="social-links"></ul><div class="footer"><a target="_blank" href="/"><span>Publish By Ryandhika Bintang Abiyyi</span></a></div></div><div class="main"><div class="page-top animated fadeInDown"><div class="nav"><li><a href="/">Home</a></li><li><a href="/portofolio">Portofolio</a></li><li><a href="/archives">Archive</a></li><li><a href="/contact">Contact</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li></div><div class="avatar"><img></div></div></div><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>Cara Mengupload File Project Ke Git</a></h3></div><div class="post-content"><p>Hallo, selamat pagi, siang sore atau malam pada saat anda menonton artikel ini. Sesuai dengan judul pada kesempatan kali ini kita akan melakukan upload file project ke git. Nah, sebelum itu yuk berkenalan sedikit mengenai git</p>
+<h2 id="Pengertian-Git"><a href="#Pengertian-Git" class="headerlink" title="Pengertian Git"></a>Pengertian Git</h2><p>Artikel yang sudah saya baca di <a target="_blank" rel="noopener" href="https://www.dewaweb.com/blog/mengenal-git/">Dewa Web</a><br>Git adalah sebuah version control system terbuka yang dikembangkan oleh Linus Torvalds pada tahun 2005. Linus Torvalds juga merupakan pengembang sistem kernel dari sistem operasi Linux.</p>
+<p>Saat ini, Git merupakan version control system paling populer digunakan di dunia saat ini. Ada ratusan proyek software yang mengandalkan Git sebagai version control system mereka termasuk proyek komersial serta open source.</p>
+<p>Git terkategori dalam DVCS (Distributed Version Control System), yang artinya kode tidak hanya memiliki satu tempat penyimpanan sejarah lengkap sebuah software.</p>
+<p>Di Git, setiap salinan kode kerja developer juga berperan sebagai repositori yang dapat berisi riwayat lengkap dari semua perubahan. Selain didistribusikan, Git telah dirancang dengan kinerja, keamanan, dan fleksibilitas yang maksimal.</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/produk-git.jpeg" class="">
+<p>Sumber Image : <a target="_blank" rel="noopener" href="https://ramoliya.medium.com/the-key-differences-gitlab-vs-github-vs-bitbucket-3d76c4bcf5e6">Hitesh Ramoliya</a></p>
+<h2 id="Apasih-Manfaat-dari-GIT"><a href="#Apasih-Manfaat-dari-GIT" class="headerlink" title="Apasih Manfaat dari GIT ?"></a>Apasih Manfaat dari GIT ?</h2><p>Beberapa manfaat dari git itu sendiri antara lain,</p>
+<ol>
+<li>Bisa menyimpan seluruh versi source code;</li>
+<li>Bisa paham cara kolaborasi dalam proyek;</li>
+<li>Bisa ikut berkontribusi ke poryek open-source;</li>
+<li>Lebih aman digunakan untuk kolaborasi, karena kita bisa tahu apa yang diubah dan siapa yang mengubahnya.</li>
+<li>Bisa memahami cara deploy aplikasi modern;</li>
+<li>Bisa membuat blog dengan SSG, dan masih banyak lainya,</li>
+</ol>
+<h2 id="Perintah-Command-Dasr-Git"><a href="#Perintah-Command-Dasr-Git" class="headerlink" title="Perintah / Command Dasr Git"></a>Perintah / Command Dasr Git</h2><p>Untuk mengetahui bagaimana menggunakan git, berikut perintah-perintah dasar git:</p>
+<ol>
+<li>Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git</li>
+<li>Git status : untuk mengetahui status dari repository lokal</li>
+<li>Git add : menambahkan file baru pada repository yang dipilih</li>
+<li>Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.</li>
+<li>Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.</li>
+<li>Git branch : melihat seluruh branch yang ada pada repository</li>
+<li>Git checkout : menukar branch yang aktif dengan branchyang dipilih</li>
+<li>GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih</li>
+<li>Git clone : membuat Salinan repository lokal</li>
+</ol>
+<h3 id="Nah-semakin-penasaran-bukan-ke-topik-pembahasan-langsung-saja-mari-kita-coba-upload-project-file-ke-salah-satu-produk-dari-GIT-yakni-Github"><a href="#Nah-semakin-penasaran-bukan-ke-topik-pembahasan-langsung-saja-mari-kita-coba-upload-project-file-ke-salah-satu-produk-dari-GIT-yakni-Github" class="headerlink" title="Nah semakin penasaran bukan ke topik pembahasan? langsung saja mari kita coba upload project file ke salah satu produk dari GIT yakni Github."></a>Nah semakin penasaran bukan ke topik pembahasan? langsung saja mari kita coba upload project file ke salah satu produk dari GIT yakni Github.</h3><p>Sejatinya ada beberapa metode untuk menggunakan git, pada operasi sistem Linux dapat langsung menggunakan terminal bawaan, namun untuk windows dapat menggunakan software git, pada kesempatan kali ini saya akan melakukan upload file project dengan menggunakan windows. Lalu, Apa saja agar proses upload project ke github lancar berikut adalah langkahnya,</p>
+<p>Downlaod terlebih dahulu software Git versi terbaru <a target="_blank" rel="noopener" href="https://git-scm.com/download/">disini</a> dan pastikan download sesuai dengan operasi sistem anda. Setelah download selesai, lanjut dengan install software tersebut seperti proses instalasi software pada umumnya</p>
+<p>Lalu bagi anda yang belum mempunyai akun github, Register lalu login di <a target="_blank" rel="noopener" href="https://github.com/">github.com</a>, setelah login buatlah sebuah repository (folder) baru dengan klik tombol seperti gambar dibawah,</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/new-repo.png" class="">
+
+<p>Isikan nama repository anda (wajib), lalu di untuk kolom deskripsi adalah bersifat opsional jadi boleh anda isi atau tidak, dibawah juga terdapat opsi public/private (dimana kondisi repository anda di public / di buat umum (open source) atau private / di buat pribadi atau tertutup), lalu klik “Creat Repository” </p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/creat-new-repo.png" class="">
+
+<p>repository baru sukses dibuat, dengan alamat repository dibagian seperti dibawah ini,</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/sukses-new-repo.png" class="">
+
+<p>Setelah itu menggunakan softaware git desktop dengan cara klik kanan pada folder yang anda ingin upload, contohnya dibawah ini “UjiCoba” lalu klik kanan “Git Bash Here”</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-bash-here.png" class="">
+
+<p>Jika sudah muncul terminal git, ketik perintah </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-init.png" class="">
+
+<p>Lanjut ketik perintah,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add *</span><br></pre></td></tr></table></figure>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-add-*.png" class="">
+
+<h3 id="Perlu-di-ingat"><a href="#Perlu-di-ingat" class="headerlink" title="Perlu di ingat !"></a>Perlu di ingat !</h3><p>Apabila anda baru pertama kali menggunakan software git, maka anda harus mendeklarasikan / mendaftarkan / menconfig user git anda dengan ketik perintah sebagai berikut secara berurtan,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config –global user.name <span class="string">&quot;ini_isi_username_anda&quot;</span></span><br><span class="line"></span><br><span class="line">git config –global user.email <span class="string">&quot;ini_isi_emai_anda&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>setelah config, lanjut ketik perintah, Recommend : dalam string sesuaikan dengan apa yang telah anda kerjakan yang bertujuan next untuk lebih mudah memahami kegiatan sebelumnya</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit –m “first commit”</span><br></pre></td></tr></table></figure>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/first-commit.png" class="">
+
+
+<p>Selanjutnya, ketik perintah</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/username/repository-name.git</span><br></pre></td></tr></table></figure>
+<p>Contoh : </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/ryandhikabaa/UjiCoba.git</span><br></pre></td></tr></table></figure>
+<p>Lalu, dilanjut dengan perintah </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<p>Diproses ini anda akan diarahkan ke jendela login ke akun github, ada beberapa cara sesuai device antara lain sebagai berikut,</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-login.png" class="">
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-login2.png" class="">
+<p>Atau seperti dibawah ini dengan Authorized, </p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-authorize.png" class="">
+
+<p>Setelah anda login berhasil proses upload berlangsung, di terminal git anda akan muncul seperti berikut,</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-succes.png" class="">
+
+<p>Dengan munculnya respon dari terminal seperti gambar sebelumnya, file project anda telah berhasil di upload ke github, hasilnya dapat di akses melalui website github yang anda sudah login</p>
+<img src="/2021/07/02/cara-mengupload-file-project-ke-github/git-hasil-succes.png" class="">
+
+
+<h3 id="Perhatian-Langkah-langkah-untuk-uplaod-project-ke-github-sudah-kita-lalui-sangat-perlu-di-ingat-langkah-lngkah-tersebut-sewaktu-waktu-dapat-berubah-sesuai-dengan-pembaruan-dan-kebijakan-yang-telah-di-buat-oleh-git-maupun-github"><a href="#Perhatian-Langkah-langkah-untuk-uplaod-project-ke-github-sudah-kita-lalui-sangat-perlu-di-ingat-langkah-lngkah-tersebut-sewaktu-waktu-dapat-berubah-sesuai-dengan-pembaruan-dan-kebijakan-yang-telah-di-buat-oleh-git-maupun-github" class="headerlink" title="Perhatian : Langkah langkah untuk uplaod project ke github sudah kita lalui, sangat perlu di ingat langkah-lngkah tersebut sewaktu waktu dapat berubah sesuai dengan pembaruan dan kebijakan yang telah di buat oleh git maupun github."></a>Perhatian : Langkah langkah untuk uplaod project ke github sudah kita lalui, sangat perlu di ingat langkah-lngkah tersebut sewaktu waktu dapat berubah sesuai dengan pembaruan dan kebijakan yang telah di buat oleh git maupun github.</h3><h2 id="Selamat-Mencoba…"><a href="#Selamat-Mencoba…" class="headerlink" title="Selamat Mencoba….."></a>Selamat Mencoba…..</h2></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2021-07-02</span><i class="fa fa-tag"></i></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,http://example.com/2021/07/02/cara-mengupload-file-project-ke-github/,Ryandhika Bintang,Cara Mengupload File Project Ke Git,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2021/06/22/revolusi-industri-4-0-dan-society-5-0/" title="Revolusi Industri 4.0 dan Society 5.0">Next post</a></li></ul></div></div></div></div></div><script src="/js/jquery.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script></body></html>
